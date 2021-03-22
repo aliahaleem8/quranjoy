@@ -3,7 +3,7 @@
 
 AUTHOR = 'Alia Haleem'
 SITENAME = 'Quran Joy'
-SITEURL = ''
+SITEURL = 'https://aliahaleem8.github.io/quranjoy'
 
 PATH = 'content'
 
