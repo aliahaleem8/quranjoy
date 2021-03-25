@@ -3,12 +3,13 @@
 
 AUTHOR = 'Alia Haleem'
 SITENAME = 'Quran Joy'
-SITEURL = 'https://aliahaleem8.github.io/quranjoy'
+#SITEURL = 'https://aliahaleem8.github.io/quranjoy'
+SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'America/Toronto'
-#THEME = 'themes/pelican-blue'
+THEME = 'themes/pelican-chameleon-master'
 
 DEFAULT_LANG = 'en'
 
