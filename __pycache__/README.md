@@ -1,5 +1,8 @@
 # Rebuild website when working on it
-Run command `pelican -r`
+Run command `pelican -r` from the main folder (source)
+
+docs is your deployed - prod 
+output is your local
 
 # Publish to docs directory
 Rename by deleting docs and renaming output to docs.
