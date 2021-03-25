@@ -100,8 +100,8 @@
 
         <p class='navbar-brand'>||</p>
 
-        {% for title, url in categories %}
-          <a class="navbar-brand" href="{{ url }}">{{ title }}</a>
+        {% for category, article in categories %}
+          <a class="navbar-brand" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
           <p class='navbar-brand'>|</p>
         {% endfor %}
 
