@@ -14,28 +14,23 @@ Are finders keepers? Lets find out. Get it? "Find" out? :)
 ```
 
 3. Save it in content folder as a .md file.
-4. publish by running command from the root directory in a terminal: `pelican`
-5. run `cd output`
-6. run `python3 -m http.server` to preview your local website.
-7. Browse to localhost:8000
-
-
-# For future knowledge
-
-unpaid format for keeping domain through github
-`SITEURL = 'https://<gitUserName>.github.io/<repoName>'`
-
----------
 
 # Rebuild website when working on it
-Run command `pelican -r` from the main folder (source)
+1. publish by running command from the root directory in a terminal: `pelican -r`
 
-docs is your deployed - prod 
-output is your local
+    docs is your deployed - prod 
+    output is your local
+
+# How to run in your local browser
+
+Run from the output directory: 
+`python3 -m http.server`
+
+View at http://localhost:8000
 
 # Publish to docs directory
 Rename by deleting docs and renaming output to docs.
-- Run command from main project folder: 
+- Run command from main/root project folder: 
 
 ```
     rm -rf docs
@@ -43,11 +38,15 @@ Rename by deleting docs and renaming output to docs.
 
 ```
 
-# How to run in your local browser
-Run from the output directory: 
+# Test production version of code
+
+Run from the docs directory: 
 `python3 -m http.server`
 
-View at http://localhost:8000
+# Final Step: Commit docs folder to push to production
+
+`git commit -a -m "video added xyz"`
+`git push`
 
 # To do:
 
@@ -56,4 +55,12 @@ View at http://localhost:8000
 - Show sparkles on arrival
 - fix links and socials
 - Upload ALL recordings
+
+
+
+
+# For future knowledge
+
+unpaid format for keeping domain through github
+`SITEURL = 'https://<gitUserName>.github.io/<repoName>'`
 
