@@ -4,4 +4,4 @@ Category: Surah Yusuf
 
 Are finders keepers? Lets find out. Get it? "Find" out? :)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jY4HZwTNXMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="650" height="366" src="https://www.youtube.com/embed/jY4HZwTNXMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
