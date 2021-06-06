@@ -10,6 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Toronto'
 THEME = 'themes/pelican-chameleon-master'
+GOOGLE_ANALYTICS = 'G-MZFE2DPEMC'
 
 DEFAULT_LANG = 'en'
 
