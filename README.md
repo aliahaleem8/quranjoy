@@ -35,6 +35,7 @@ Rename by deleting docs and renaming output to docs.
 ```
     rm -rf docs
     mv output docs 
+    copy CNAME docs
 
 ```
 
