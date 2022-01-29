@@ -3,6 +3,16 @@
 - Install Python 3.x
 - Install all required pip packages: `pip install -r requirements.txt`
 
+# Autogenerate .md for the new files
+
+0. 
+1. Update the urls.json file to include all new files.
+2. Run `python .\generate.py`. Confirm it generated *.md files in /generated folder for each new url you entered.
+3. Move *.md files into content/tafseer
+4. Follow the steps from "Rebuild website when working on it" to generate proper html files accordingly
+5. To add any files into category. 
+
+
 # Creating a new Video Post
 
 1. Upload video to youtube as unlisted or public.
@@ -30,6 +40,9 @@ Are finders keepers? Lets find out. Get it? "Find" out? :)
 
 Run from the output directory: 
 `python3 -m http.server`
+
+If not recognized try: 
+`py -m http.server`
 
 View at http://localhost:8000
 

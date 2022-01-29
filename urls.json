@@ -1,7 +1,19 @@
 {
     "category": "Surah Yusuf",
-    "urls": [
+    "oldUrls": [
         "https://www.youtube.com/embed/jY4HZwTNXMw",
-        "https://www.youtube.com/embed/fOflhzeFVIA"
+        "https://www.youtube.com/embed/fOflhzeFVIA",
+        "https://youtu.be/3hA2HEennPE?t=64"
+    ],
+
+    "urls": [
+        {   
+            "url":"https://www.youtube.com/embed/jY4HZwTNXMw",
+            "category": "Quran", 
+            "date": "2020-01-31",
+            "tags": ["Tafseer", "Yusuf", "Reflection"],
+            "attachments": ["draw-a-well.pdf", "https://drive.google.com/awesome"]
+        }
+
     ]
 }
