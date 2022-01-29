@@ -1,3 +1,8 @@
+# Developer Enviornment Setup
+
+- Install Python 3.x
+- Install all required pip packages: `pip install -r requirements.txt`
+
 # Creating a new Video Post
 
 1. Upload video to youtube as unlisted or public.
